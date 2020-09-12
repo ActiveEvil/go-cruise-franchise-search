@@ -1,0 +1,30 @@
+{
+  "name": "go-cruise-franchise-search",
+  "version": "0.0.0-alpha",
+  "repository": "https://github.com/ActiveEvil/go-cruise-franchise-search.git",
+  "author": "Æ",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "webpack-dev-server --mode development --config ./webpack.config.js",
+    "build": "webpack --mode production --config ./webpack.config.js"
+  },
+  "devDependencies": {
+    "@types/js-search": "^1.4.0",
+    "eslint": "^7.8.1",
+    "eslint-config-standard-with-typescript": "^19.0.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "html-webpack-plugin": "^4.4.1",
+    "ts-loader": "^8.0.3",
+    "typescript": "^4.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "js-search": "^2.0.0"
+  }
+}
