@@ -3,11 +3,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Franchise Search Demo</title>
+    <style>
+      .wrapper {
+        max-width: 400px;
+      }
+      #search {
+        border: 1px solid #000;
+        border-radius: 0;
+        display: block;
+        margin-top: 10px;
+        padding: 5px 10px;
+        width: 100%;
+      }
+      #search:focus {
+        outline: 0;
+      }
+      .franchise-search_autocomplete {
+        display: none;
+        border: 1px solid #000;
+        margin-top: -1px;
+        padding-bottom: 5px;
+      }
+      .franchise-search_result-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .franchise-search_result-item {
+        cursor: default;
+        padding: 5px 10px 0;
+      }
+    </style>
   </head>
   <body>
-    <section>
-      <label for="search">Search by name or postcode</label>
-      <input id="search" name="search" type="search" />
+    <section class="wrapper">
+      <h2>Find your local cruise specialist</h2>
+      <label for="search">Start typing a name or postcode</label>
+      <input autocomplete="off" id="search" name="search" type="search" />
     </section>
+    <script>
+      window.__franchiseSearch(document.getElementById('search'))
+    </script>
   </body>
 </html>

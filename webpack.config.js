@@ -30,7 +30,7 @@ module.exports = (env, { mode }) => ({
   },
   plugins: [
     new HtmlWebpackPlugin({
-      inject: true,
+      inject: 'head',
       template: './index.html'
     })
   ],

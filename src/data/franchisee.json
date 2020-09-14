@@ -401,8 +401,7 @@
       "NE39 2",
       "NE9 7"
     ],
-    "names": ["Tony", "Joanie", "Joan", "Sam"],
-    "lastNames": ["Blakey"],
+    "names": ["Tony", "Joanie", "Joan", "Sam", "Blakey"],
     "profile_img": "//www.gocruise.co.uk/images/www.gocruise.co.uk/v4.0/img/profiles/blakey.jpg",
     "area": ""
   },
@@ -3705,7 +3704,7 @@
       "LS6 3",
       "LS6 4"
     ],
-    "names": ["Helen", "Smith", "Surname"],
+    "names": ["Helen", "Smith"],
     "profile_img": "http://static0.traveltek.net/images/www.gocruise.co.uk/v4.0/img/profiles/smith.jpg",
     "area": ""
   },
