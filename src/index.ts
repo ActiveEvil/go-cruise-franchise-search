@@ -18,7 +18,7 @@ window.__franchiseSearch = (element) => {
   autocomplete.className = 'franchise-search_autocomplete'
 
   const noResults: HTMLDivElement = document.createElement('div')
-  error.className = 'franchise-search_noresults'
+  noResults.className = 'franchise-search_noresults'
 
   const specialist: HTMLDivElement = document.createElement('div')
   specialist.className = 'franchise-search_specialist'
