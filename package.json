@@ -26,6 +26,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "lunr": "^2.3.9"
+    "lunr": "^2.3.9",
+    "postcode": "^5.0.0"
   }
 }
