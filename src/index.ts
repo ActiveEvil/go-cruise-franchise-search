@@ -83,8 +83,6 @@ window.__franchiseSearch = (element) => {
         })
       })
 
-      console.log(results)
-
       displaySearchResults(results)
     }
   }
